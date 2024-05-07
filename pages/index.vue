@@ -5,5 +5,6 @@
         <HeroSection/>
         <Project/>
         <Skills/>
+        <Footer/>
     </UContainer>
 </template>

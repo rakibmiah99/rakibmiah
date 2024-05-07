@@ -1,14 +1,14 @@
 <template>
-    <div class="flex items-center py-12">
+    <div class="flex items-center py-2">
         <div class="info basis-1/2 flex-wrap space-y-3">
-            <h1 class="text-6xl leading-snug">Kickstart your project with a starter</h1>
+            <h1 class="text-6xl leading-snug font-bold">Full Stack Web Developer</h1>
             <p class="text-lg"> Open a Nuxt starter on CodeSandbox, StackBlitz or locally to get up and running in a few seconds. </p>
             <div>
                 <UButton color="black" class="px-4">Hire Me</UButton>
             </div>
         </div>
         <div class="image basis-1/2">
-            <img src="https://www.patriquinarchitects.com/wp-content/uploads/2020/11/TRINITY-NORTH-SOUTH-SECTION-UPDATED-1.jpg">
+            <img src="~/assets/h_image_2.png">
         </div>
     </div>
 

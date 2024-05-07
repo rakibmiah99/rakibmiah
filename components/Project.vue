@@ -1,97 +1,48 @@
 <template>
-    <div class="mt-5">
-        <UDivider/>
-        <h1 class="text-3xl font-bold text-center my-3">Projects</h1>
+    <div class="py-12">
+        <!-- <UDivider/> -->
+        <!-- <h1 class="text-3xl font-bold text-center my-3">Projects</h1> -->
         <!-- <UDivider/> -->
         <div class="flex flex-wrap mt-4">
-            <UCard class="basis-1/3 p-0">
-                <div>
-                    <img class="aspect-video rounded-md object-cover w-full" src="https://cdn.dribbble.com/userupload/13983228/file/original-46c2a259ab5caa6a815f663bbd085dca.png?resize=1504x1128">
-                </div>
-
-                <template #footer>
+           <div class="p-2 basis-1/3">
+                <UCard class="relative">
+                    <UBadge class="absolute top-[-2px] left-[-25px] px-3 uppercase rotate-[-45deg]" color="black" variant="outline">Project</UBadge>
                     <div class="space-y-3">
-                        <h2 class="text-lg text-center font-bold uppercase">Indon YRM</h2>
+                        <h2 class="text-3xl text-center font-bold">NuxtJs + Laravel</h2>
                         <p class="line-clamp-5">As a web developer, providing a qualitative web-application with a flexible architecture, structured JSON/XML with a flawless API connectivity interface, well-constructed code following the OOPs concept and a seamless development cycle are my standards.</p>
                         <div class="space-x-2 flex justify-center">
-                            <UButton color="black">View Details</UButton>
-                            <UButton color="black">Live Demo</UButton>
+                            <UButton color="black">View All</UButton>
                         </div>
                     </div>
-                </template>
-            </UCard>
+                </UCard>
+           </div>
 
-
-            <UCard class="basis-1/3 p-0">
-                <div>
-                    <img class="aspect-video rounded-md object-cover w-full" src="https://cdn.dribbble.com/userupload/13983228/file/original-46c2a259ab5caa6a815f663bbd085dca.png?resize=1504x1128">
-                </div>
-
-                <template #footer>
+           <div class="p-2 basis-1/3">
+                <UCard class="relative">
+                    <UBadge class="absolute top-[-2px] left-[-25px] px-3 uppercase rotate-[-45deg]" color="black" variant="outline">Project</UBadge>
                     <div class="space-y-3">
-                        <h2 class="text-lg text-center font-bold uppercase">Indon YRM</h2>
+                        <h2 class="text-3xl text-center font-bold">Jquery + Laravel</h2>
                         <p class="line-clamp-5">As a web developer, providing a qualitative web-application with a flexible architecture, structured JSON/XML with a flawless API connectivity interface, well-constructed code following the OOPs concept and a seamless development cycle are my standards.</p>
                         <div class="space-x-2 flex justify-center">
-                            <UButton color="black">View Details</UButton>
-                            <UButton color="black">Live Demo</UButton>
+                            <UButton color="black">View All</UButton>
                         </div>
                     </div>
-                </template>
-            </UCard>
+                </UCard>
+           </div>
 
-
-            <UCard class="basis-1/3 p-0">
-                <div>
-                    <img class="aspect-video rounded-md object-cover w-full" src="https://cdn.dribbble.com/userupload/13983228/file/original-46c2a259ab5caa6a815f663bbd085dca.png?resize=1504x1128">
-                </div>
-
-                <template #footer>
+           <div class="p-2 basis-1/3">
+                <UCard class="relative">
+                    <UBadge class="absolute top-[-2px] left-[-25px] px-3 uppercase rotate-[-45deg]" color="black" variant="outline">Project</UBadge>
                     <div class="space-y-3">
-                        <h2 class="text-lg text-center font-bold uppercase">Indon YRM</h2>
+                        <h2 class="text-3xl text-center font-bold">Laravel REST API</h2>
                         <p class="line-clamp-5">As a web developer, providing a qualitative web-application with a flexible architecture, structured JSON/XML with a flawless API connectivity interface, well-constructed code following the OOPs concept and a seamless development cycle are my standards.</p>
                         <div class="space-x-2 flex justify-center">
-                            <UButton color="black">View Details</UButton>
-                            <UButton color="black">Live Demo</UButton>
+                            <UButton color="black">View All</UButton>
                         </div>
                     </div>
-                </template>
-            </UCard>
-
-
-            <UCard class="basis-1/3 p-0">
-                <div>
-                    <img class="aspect-video rounded-md object-cover w-full" src="https://cdn.dribbble.com/userupload/13983228/file/original-46c2a259ab5caa6a815f663bbd085dca.png?resize=1504x1128">
-                </div>
-
-                <template #footer>
-                    <div class="space-y-3">
-                        <h2 class="text-lg text-center font-bold uppercase">Indon YRM</h2>
-                        <p class="line-clamp-5">As a web developer, providing a qualitative web-application with a flexible architecture, structured JSON/XML with a flawless API connectivity interface, well-constructed code following the OOPs concept and a seamless development cycle are my standards.</p>
-                        <div class="space-x-2 flex justify-center">
-                            <UButton color="black">View Details</UButton>
-                            <UButton color="black">Live Demo</UButton>
-                        </div>
-                    </div>
-                </template>
-            </UCard>
-
-
-            <UCard class="basis-1/3 p-0">
-                <div>
-                    <img class="aspect-video rounded-md object-cover w-full" src="https://cdn.dribbble.com/userupload/13983228/file/original-46c2a259ab5caa6a815f663bbd085dca.png?resize=1504x1128">
-                </div>
-
-                <template #footer>
-                    <div class="space-y-3">
-                        <h2 class="text-lg text-center font-bold uppercase">Indon YRM</h2>
-                        <p class="line-clamp-5">As a web developer, providing a qualitative web-application with a flexible architecture, structured JSON/XML with a flawless API connectivity interface, well-constructed code following the OOPs concept and a seamless development cycle are my standards.</p>
-                        <div class="space-x-2 flex justify-center">
-                            <UButton color="black">View Details</UButton>
-                            <UButton color="black">Live Demo</UButton>
-                        </div>
-                    </div>
-                </template>
-            </UCard>
+                </UCard>
+           </div>
+            
         </div>
     </div>
 </template>
