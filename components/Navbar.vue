@@ -12,19 +12,22 @@ const links = [
         label: 'Projects',
         avatar: {
             src: 'https://cdn-icons-png.flaticon.com/256/1087/1087815.png'
-        }
+        },
+        to: '/project'
     },
     {
         label: 'CV',
         avatar:{
             src: 'https://cdn-icons-png.freepik.com/256/9050/9050420.png'
-        }
+        },
+        to: '/cv'
     },
     {
         label: 'GitHub',
         avatar: {
             src: 'https://miro.medium.com/v2/resize:fit:256/1*UuSt1q01HUHlsYtq352few.png'
         },
+        to: 'https://github.com/rakibmiah99/'
     }
     ,
     {
@@ -32,6 +35,7 @@ const links = [
         avatar: {
             src: 'https://cdn-icons-png.flaticon.com/256/4494/4494497.png'
         },
+        to: 'https://linkedin.com/in/rakibmiah99'
     }
 ]
 ];

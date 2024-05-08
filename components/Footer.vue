@@ -3,7 +3,7 @@
     <UContainer>
       <div class="flex text-black py-8 justify-between">
         <div class="basis-1/4 first:ps-0">
-          <h1 class="text-3xl uppercase"><span class="text-violet-800 font-bold">Bong</span>Play</h1>
+          <h1 class="text-3xl uppercase">Rakibmiah.xyz</h1>
           <p class="text-sm mt-3">Lorem ipsum dolor sit amet, consec tetur adipis cing elit, sed do eiusmod tempor incididunt ut labore et.</p>
         </div>
 
